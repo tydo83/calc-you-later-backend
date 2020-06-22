@@ -12,7 +12,7 @@ describe('calculate', () => {
     expect(calculate('8', '5', '-')).toBe(3)
   });
 
-  it(`given two strings representing numbers and a string of 'x', returns the second number subtracted from the first number`, () => {
+  it(`given two strings representing numbers and a string of 'x', returns the result of multiplying the two numbers together`, () => {
     expect(calculate('3', '5', 'x')).toBe(15)
     expect(calculate('10', '4', 'x')).toBe(40)
   });
